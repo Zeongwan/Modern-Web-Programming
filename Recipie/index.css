@@ -1,0 +1,81 @@
+h1 {
+  font-size: 45px;
+  font-family: "Microsoft Yahei UI Light";
+  color: white;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Microsoft Yahei UI Light";
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+#subtitle {
+  font-size: 25px;
+  font-family: "Microsoft Yahei UI Light";
+  color: white;
+}
+
+.title {
+  font-family: "Microsoft Yahei UI Light";
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.title:hover {
+  color: #FF704D;
+}
+
+.menu {
+  /*size*/
+  width: 170px;
+  height: 75px;
+  margin: 20px;
+  /*background*/
+  background-image: url(src/tag.png);
+  background-repeat: no-repeat;
+  background-size: 170px 60px;
+  overflow: visible;
+}
+
+.part {
+  /*size*/
+  width: 270px;
+  height: 420px;
+  padding: 10px;
+  margin: 20px;
+  /*position*/
+  float: left;
+  /*decoration*/
+  border: 1px solid lightgrey;
+  box-shadow: 2px 2px 2px gainsboro;
+  background-color: white;
+  text-align: center;
+}
+
+.inner {
+  font-size: 10px;
+  text-align: left;
+  color: gray;
+}
+
+._show {
+  /*size*/
+  height: 500px;
+  width: 1300px;
+  padding: 15px;
+  /*decoration*/
+  background: url(src/show.jpg) no-repeat;
+  background-size: 1771px 495px;
+  text-align: center;
+}
